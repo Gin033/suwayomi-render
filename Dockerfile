@@ -5,7 +5,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y wget
 
 # ✅ URL corregida: se usa una versión específica (ajustable)
-RUN wget https://github.com/Suwayomi/Suwayomi-Server/releases/download/v1.0.0-alpha.16/suwayomi-server.jar -O suwayomi-server.jar
+RUN wget https://github.com/Suwayomi/Suwayomi-Server/releases/download/v2.0.1727/Suwayomi-Server-v2.0.1727.jar -O suwayomi-server.jar
+
 
 EXPOSE 4567
 
